@@ -1,0 +1,128 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage{marvosym} %http://texdoc.net/texmf-dist/doc/fonts/marvosym/marvodoc.pdf
+\usepackage{color} %https://en.wikibooks.org/wiki/LaTeX/Colors
+\usepackage{fullpage}
+\usepackage{titlesec} %http://texdoc.net/texmf-dist/doc/latex/titlesec/titlesec.pdf
+\usepackage{hyperref} %https://en.wikibooks.org/wiki/LaTeX/Hyperlinks
+\usepackage{multicol}
+\usepackage[ampersand]{easylist}
+
+%%Some font selections:
+%\usepackage[default]{comicneue}
+%\usepackage{DejaVuSansCondensed}
+%\usepackage[light,math]{kurier}
+%\usepackage[sfdefault]{overlock}
+%\usepackage[default]{raleway}
+%\usepackage[sfdefault,light]{roboto}
+%\usepackage{courier}
+%\usepackage[default,osfigures,scale=0.95]{opensans}
+
+\usepackage[T1]{fontenc}
+
+\title{SuogluYigit-CV} %Edit here
+\date{\today}
+\author{Yigit Suoglu} %Edit here
+
+\titleformat{\section}{\Large}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{3pt}{3pt}
+\titleformat{\subsection}{\large}{}{0em}{}
+\titlespacing{\subsection}{30pt}{-6pt}{-8pt}
+
+\begin{document}
+	\pagestyle{empty} % non-numbered pages
+ 	 \par{\centering
+		{\Huge Yigit Süoglu %Name here
+		}\par}
+
+  	\begin{multicols}{2} %Contact information and some personal data - begin
+ 		 \noindent
+    		\textsc{email:}  \href{mailto:suoglu@icloud.com}{suoglu@icloud.com} \\
+    		\textsc{Phone:}  +12 345 678 9900 \\
+    		\textsc{Linkedin:}  \href{https://linkedin.com/in/yigitsuoglu}{linkedin.com/in/yigitsuoglu} \\
+    		\textsc{Github:}  \href{https://github.com/suoglu}{github.com/suoglu} \\
+    		 \columnbreak
+    		\textsc{Personal Web Page:}  \href{https://suoglu.github.io}{suoglu.github.io} \\
+    		\textsc{Home Address:}  \\
+    			   Address line 1\\
+                            Address line 2\\
+                            Address line 3\\
+                            Zip
+ 	\end{multicols} %Contact information and some personal data - end
+	
+	\section{Experience} %Work experience here
+	%Format:
+	%TIME & \textbf{POSITION, COMPANY OR INST} \footnotesize{LOCATION}
+	%	\\ & \footnotesize{INFORMATION} \\ 
+	\begin{tabular}{rp{11cm}}
+		September 2017 - Present & \textbf{President, Hoth Goverment} \footnotesize{Hoth, Outer Rim Territories}
+		\\ & \footnotesize{Hoth was a remote, icy planet that was the sixth planet in the star system of the same name. } \\ 
+		August - September 2017 & \textbf{Barista, Starbucks} \footnotesize{London, UK}
+		\\ & \footnotesize{I make coffee} \\ 
+		July 1999 - August 2017 & \textbf{Jedi Master, Jedi Order} \footnotesize{Coruscant, Core Worlds}
+		\\ & \footnotesize{Jedi Master was a rank in the Jedi Order given to powerful Jedi, many of whom were leaders within the Order. I was a member of Jedi High Council} \\ 
+		Fall 1996 & \textbf{Undergraduate TA, Jedi Academy} \footnotesize{Coruscant, Core Worlds}
+		\\ & \footnotesize{I worked as a teaching assistant under grand master} \\ 
+		\end{tabular} %Work experience ends
+	
+   	\section{Education} %Education here
+	%Format:
+	%TIME & \textbf{SCHOOL} LOCATION
+	%	\\ & \footnotesize{INFORMATION} \\ 
+	\begin{tabular}{rl}	
+		1993 - Present	 & \textbf{Jedi Academy} \footnotesize{Coruscant, Core Worlds}
+		\\ & \footnotesize{B.S. Jedi studies}
+		\\ & \footnotesize{Current GPA 3.98/4.00} \\ 
+		2009 - 2013 & \textbf{Be\c{s}ikta\c{s} Atatürk Anatolian High School} \footnotesize{Istanbul, Turkey}
+		\\ & \footnotesize{Science and Mathematics}
+	\end{tabular} %Education ends
+	
+	\section{Skills} %Skills here
+		\subsection{Computer:} %Computer related
+		\begin{multicols}{3}
+			\begin{easylist}[itemize]
+			&& MS office
+			&& Saber Design
+			&& Starship ploting
+			\end{easylist}
+			\begin{easylist}[itemize]
+			&& Linux
+			&& Verilog HDL
+			&& Python
+			\end{easylist}
+			\begin{easylist}[itemize]
+			&& C/C++
+			&& HTML \& CSS
+			&& LaTeX
+			\end{easylist}
+		\end{multicols} 
+		\subsection{Language:\\}
+		\begin{tabular}{ll}
+		\indent\textsc{English: } & Professional working proficiency\\
+		\indent\textsc{Turkish: } & Native\\\\
+		\end{tabular} 
+		
+		\subsection{Hobbies:}
+		\begin{tabular}{ll}
+		\\
+		\indent\textsc{ Scuba Diving:} & PADI Advanced Open Water Diver\\
+		\indent\textsc{ Saber duels} & \\
+		\indent\textsc{ Reading} & \\
+		\indent\textsc{ Spaceships} & \\
+		\end{tabular} 
+		%Skills ends
+	
+	\section{Projects} 
+	\begin{tabular}{p{15cm}}%Projects here
+		%\textsc{PROJECTname}\\
+		 %\footnotesize{Explanation}\\\\
+		\textsc{Building my own lightsaber}\\
+			\footnotesize{At this project I build my own lightsaber using purple crystals.}\\\\
+				 \end{tabular}%Projects end
+		 
+		 \section{Certifications} %Certifications here
+		 	\begin{easylist}[itemize]
+			&  \textsc{Jedi Order:}
+			&& \small{Library management}
+			\end{easylist} %Certifications end
+\end{document}
